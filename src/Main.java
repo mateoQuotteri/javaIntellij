@@ -33,6 +33,7 @@ Informar el resultado obtenido.
     }*/
 
     /*VOID ES PARA INDICAR QUE LA FUNCION NO RETORNARA NADA */
+
     public static void main(String[] args) {
       //  Animal jack = new Animal("Jack", 9, "Perro");
        // System.out.println(jack.toString());
@@ -62,10 +63,11 @@ Informar el resultado obtenido.
 
 
 
+
         CryptoCurrency Ether = new CryptoCurrency(1896, "Ethereum" ,
                 "ETH" , 4695, 8);
 
-        // System.out.println(Ether.getName() + " tiene este precio: " + Ether.getPrice());
+        System.out.println(Ether.getName() + " tiene este precio: " + Ether.getPrice());
 
     /*
           Para representar cada una de las características de las mascotas, crear una variable y darle

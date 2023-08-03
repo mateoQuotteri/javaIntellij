@@ -26,4 +26,20 @@ public class Animal {
     public String toString() {
         return nombre + " tiene " + edad + " años y es un " + tipo;
     }
+
+    public void setEdad(int edadIngresada)  {
+
+        this.edad = edad;
+
+    }
+    public void setNombre(int nombreIngresado)  {
+
+        this.nombre = nombreIngresado;
+
+    }  public void setTipo(int tipoIngresado)  {
+
+        this.tipo = tipoIngresado;
+
+    }
+
 }
